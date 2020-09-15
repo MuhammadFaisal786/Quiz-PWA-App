@@ -41,4 +41,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build http://quia-app-pwa.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build http://quiz-pwa-app.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
